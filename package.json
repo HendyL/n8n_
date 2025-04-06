@@ -95,6 +95,10 @@
       "langchain>axios": "1.8.2",
       "snowflake-sdk>axios": "1.8.2"
     },
+    "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.4",
+    "node-mcp": "0.1.4"
+  },
     "patchedDependencies": {
       "bull@4.12.1": "patches/bull@4.12.1.patch",
       "pkce-challenge@3.0.0": "patches/pkce-challenge@3.0.0.patch",
